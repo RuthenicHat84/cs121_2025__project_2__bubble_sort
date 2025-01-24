@@ -48,8 +48,11 @@ print final array
 
 ### PrintValues()
 ```
-print value of array
-return Void
+//print value of array
+take int pointer for array and const for MAX
+	for i of array from 0 to MAX, i ++;
+		print value of i
+do not return anything (already a void)
 ```
 
 ### Sort()
@@ -63,15 +66,16 @@ function sort (array):
             if array[j] > array[j+1]:
                 swap array[j] with array[j+1]
                 printArray(array)
-return Void
+do not return anything (already a void)
 ```
 
 ### Swap()
 ```
+take pointer values lower and higher
 Create pointer temp
 copy the value of lower to temp
 copy the value of higher to lower
 copy the value of temp to higher
-return Void
+do not return anything (already a void)
 ```
 .
