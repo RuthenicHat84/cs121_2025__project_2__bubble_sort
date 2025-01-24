@@ -48,7 +48,7 @@ print final array
 
 ### PrintValues()
 ```
-print values of "lower" and "higher" pointers
+print value of array
 return Void
 ```
 
